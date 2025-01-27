@@ -6,9 +6,9 @@ Change Directory to folder SERVER
 
 Run:
 
-g++ server.cpp -o server
+**g++ server.cpp -o server**
 
-sudo ./server
+**sudo ./server**
 
 After that you open **FileZilla or another app** and login with  accounts in **users.txt.**
 
@@ -16,5 +16,10 @@ After that you open **FileZilla or another app** and login with  accounts in **u
 After cloned into your PC, go to server.cpp and change** serverIP to your PC IP**, by default i set it to **127.0.0.1**, default PORT is 8888.
 
 Server file is designed to intect upload, download, change directory, list, and login in passive mode (FileZilla).
+
+On Client side, it can interact with server through command line:
+After compiled:
+
+You can use USER, PASS, CWD, PWD, LIST, STOR, RETR to interact with server.
 
 
