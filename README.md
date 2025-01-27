@@ -13,14 +13,14 @@ Run:
 After that you open **FileZilla or another app** and login with  accounts in **users.txt.**
 
 **NOTE:**
-After cloned into your PC, go to server.cpp and change** serverIP to your PC IP**, by default i set it to **127.0.0.1**, default PORT is 8888.
+After cloned into your PC, go to server.cpp and change **serverIP** to **your PC's** **IP**, by default i set it to **127.0.0.1**, default **PORT** is **8888.**
 
 Server file is designed to intect upload, download, change directory, list, and login in passive mode (FileZilla).
 
 On Client side, it can interact with server through command line:
 After compiled:
 
-You can use** USER,TYPE, PASV, PASS, CWD, PWD, LIST, STOR, RETR **to interact with server.
+You can use **USER**,**TYPE,** **PASV,** **PASS,** **CWD,** **PWD,** **LIST,** **STOR,** **RETR**to interact with server.
 
 About these command, you can search on the Internet to learn about their syntax.
 
