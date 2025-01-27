@@ -20,6 +20,8 @@ Server file is designed to intect upload, download, change directory, list, and 
 On Client side, it can interact with server through command line:
 After compiled:
 
-You can use USER, PASS, CWD, PWD, LIST, STOR, RETR to interact with server.
+You can use** USER,TYPE, PASV, PASS, CWD, PWD, LIST, STOR, RETR **to interact with server.
+
+About these command, you can search on the Internet to learn about their syntax.
 
 
