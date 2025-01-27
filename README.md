@@ -5,8 +5,8 @@ To run this and connect with third-party app.
 Change Directory to folder SERVER
 
 Run:
-**g++ server.cpp -o server 
-sudo ./server**
+**g++ server.cpp -o server **
+**sudo ./server**
 
 After that you open **FileZilla or another app** and login with  accounts in **users.txt.**
 
