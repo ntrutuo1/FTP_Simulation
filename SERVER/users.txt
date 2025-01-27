@@ -1,0 +1,3 @@
+tuong 1907 /home/tuong/tuong
+trung 2004 /home/tuong/trung
+van 1209 /home/tuong/van
