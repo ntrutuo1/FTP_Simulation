@@ -5,13 +5,14 @@ To run this and connect with third-party app.
 Change Directory to folder SERVER
 
 Run:
-g++ server.cpp -o server 
-sudo ./server
+**g++ server.cpp -o server 
+sudo ./server**
 
-After that you open FileZilla or another app and login with  accounts in users.txt.
+After that you open **FileZilla or another app** and login with  accounts in **users.txt.**
 
-NOTE:
-After cloned into your PC, go to server.cpp and change serverIP to your PC IP, by default i set it to 127.0.0.1
+**NOTE:**
+After cloned into your PC, go to server.cpp and change** serverIP to your PC IP**, by default i set it to **127.0.0.1**, default PORT is 8888.
 
-Do the same with Client.
+Server file is designed to intect upload, download, change directory, list, and login in passive mode (FileZilla).
+
 
